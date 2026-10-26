@@ -1,0 +1,20 @@
+manifestVersion: 1
+
+name: "@sntxrr/namecheap-dns"
+version: "2026.10.26.1"
+description: "Read and safely edit a Namecheap domain's DNS host records: read-merge-write with read-back verification, dry run by default"
+license: MIT
+repository: "https://github.com/sntxrr/swamp-namecheap"
+
+models:
+  - namecheap_dns.ts
+
+additionalFiles:
+  - README.md
+  - LICENSE.md
+
+labels:
+  - namecheap
+  - dns
+  - domains
+  - github-pages
